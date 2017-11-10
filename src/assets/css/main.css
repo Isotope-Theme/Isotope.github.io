@@ -6,8 +6,9 @@
 body {
   background-color: #263238;
   color: #ECEFF1;
-  font-family: "source-sans-pro";
-  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
 }
 
 .wrapper {
@@ -15,22 +16,19 @@ body {
   margin: 0 auto;
 }
 
-/* ==========================================================================
-   Header
-   ========================================================================== */
+/* Header:  */
 
 .title {
   color: #2196F3;
   margin: 0;
-  font-size: 72px;
+  font-size: 112px;
   text-align: center;
-  font-family: "abril-text";
 }
 
 .subtitle {
   color: #ECEFF1;
   margin: 0 0 10px;
-  font-size: 28px;
+  font-size: 56px;
   font-weight: 400;
 }
 
@@ -46,15 +44,31 @@ body {
   margin: 45px 0 0 25px;
 }
 
-/* Categories
-   ========================================================================== */
+.footer {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.footer .green {
+  color: #4CAF50;
+}
+
+.footer .amber {
+  color: #FFC107;
+}
+
+/*  */
+
+/* Category  */
 
 .category-title {
   color: #B0BEC5;
   margin: 0 0 40px;
-  font-size: 48px;
+  font-size: 45px;
   text-align: center;
-  font-family: "abril-text";
 }
 
 .category-title.tilt-right {
@@ -65,8 +79,9 @@ body {
   transform: rotate(-10deg);
 }
 
-/* App
-   ========================================================================== */
+/*  */
+
+/* App:  */
 
 .app {
   margin-bottom: 80px;
@@ -75,10 +90,9 @@ body {
 
 .app-title {
   margin: 20px 0 0;
-  font-size: 36px;
+  font-size: 34px;
   color: #BCC2CD;
   text-align: center;
-  font-family: "abril-text";
   -webkit-transition: color .3s linear;
   transition: color .3s linear;
 }
@@ -121,110 +135,29 @@ body {
 
 }
 
-/* Credits
-   ========================================================================== */
+/*  */
 
-.credits {
-  text-align: center;
-  font-size: 1.3em;
-  margin: 0 0 60px;
-}
-
-.credits a {
-  text-decoration: none;
-  -webkit-transition: color .3s linear;
-  transition: color .3s linear;
-}
-
-.credits .cyan {
-  color: rgba(139, 233, 253, 1);
-}
-
-.credits .cyan:hover {
-  color: rgba(139, 233, 253, .7);
-}
-
-.credits .green {
-  color: rgba(80, 250, 123, 1);
-}
-
-.credits .green:hover {
-  color: rgba(80, 250, 123, .7);
-}
-
-.credits .orange {
-  color: rgba(255, 184, 108, 1);
-}
-
-.credits .orange:hover {
-  color: rgba(255, 184, 108, .7);
-}
-
-.credits .pink {
-  color: rgba(255, 121, 198, 1);
-}
-
-.credits .pink:hover {
-  color: rgba(255, 121, 198, .7);
-}
-
-.credits .love {
-  display: inline-block;
-  position: relative;
-  top: .2em;
-  font-size: 1.4em;
-  color: #ff79c6;
-  -webkit-transform: scale(.9);
-  -moz-transform: scale(.9);
-  transform: scale(.9);
-  -webkit-animation: love .5s infinite linear alternate-reverse;
-  -moz-animation: love .5s infinite linear alternate-reverse;
-  animation: love .5s infinite linear alternate-reverse;
-}
-
-@-webkit-keyframes love {
-  to {
-    -webkit-transform: scale(1.1);
-  }
-}
-
-@-moz-keyframes love {
-  to {
-    -moz-transform: scale(1.1);
-  }
-}
-
-@keyframes love {
-  to {
-    transform: scale(1.1);
-  }
-}
-
-/* ==========================================================================
-   Instructions
-   ========================================================================== */
+/* Page:  */
 
 h3 {
-  font-family: "abril-text";
   text-align: left;
-  font-size: 3em;
+  font-size: 45px;
 }
 
 h4 {
-  font-size: 2em;
+  font-size: 34px;
   font-weight: 500;
   margin: 1em 0 .3em;
 }
 
 h5 {
-  font-size: 1.5em;
+  font-size: 24px;
   font-weight: 300;
   margin: 1em 0 .3em;
 }
 
 code {
   font-weight: 300;
-  font-family: "source-sans-pro";
 }
 
 pre {
@@ -238,7 +171,7 @@ pre {
 }
 
 ol {
-  font-size: 1.1em;
+  font-size: 20em;
   font-weight: 300;
   margin: 0 0 20px 30px;
 }
@@ -253,6 +186,11 @@ a {
   text-decoration: none;
 }
 
+th {
+  font-size: 16px;
+}
+
+
 /* Theme
    ========================================================================== */
 
@@ -264,59 +202,109 @@ a {
   margin-bottom: 60px;
 }
 
-.orange h3,
-.orange h4,
-.orange h5,
-.orange h6,
-.orange .instructions a,
-.orange .instructions h3,
-.orange .instructions code {
-  color: rgba(255, 184, 108, 1);
+h3 {
+  align: "center";
 }
 
-.orange .instructions a:hover {
-  color: rgba(255, 184, 108, .7);
+.red .instructions a,
+.red .instructions h3,
+.red .instructions code {
+  text-align: center;
+  color: #F44336;
 }
 
-.pink .instructions a,
-.pink .instructions h3,
-.pink .instructions code {
-  color: rgba(255, 121, 198, 1);
+.red .instructions h4 {
+  text-align: center;
+  color: #FF8961;
 }
 
-.pink .instructions a:hover {
-  color: rgba(255, 121, 198, .7);
-}
-
-.cyan .instructions a,
-.cyan .instructions h3,
-.cyan .instructions code {
-  color: rgba(139, 233, 253, 1);
-}
-
-.cyan .instructions a:hover {
-  color: rgba(139, 233, 253, .7);
+.red .subtitle a:hover,
+.red .instructions a:hover {
+  color: #FF8961;
 }
 
 .purple .instructions a,
 .purple .instructions h3,
 .purple .instructions code {
-  color: rgba(189, 147, 249, 1);
+  color: #9C27B0;
 }
 
+.purple .instructions h4 {
+  text-align: center;
+  color: #D05CE3;
+}
+
+.purple .subtitle a:hover,
 .purple .instructions a:hover {
-  color: rgba(189, 147, 249, .7);
+  color: #D05CE3;
+}
+
+.blue .instructions a,
+.blue .instructions h3,
+.blue .instructions code {
+  text-align: center;
+  color: #2196F3;
+}
+
+.blue .instructions h4 {
+  text-align: center;
+  color: #6EC6FF;
+}
+
+.blue .subtitle a:hover,
+.blue .instructions a:hover {
+  color: #6EC6FF;
+}
+
+.cyan .instructions a,
+.cyan .instructions h3,
+.cyan .instructions code {
+  text-align: center;
+  color: #00BCD4;
+}
+
+.cyan .instructions h4 {
+  text-align: center;
+  color: #62EFFF;
+}
+
+.cyan .subtitle a:hover,
+.cyan .instructions a:hover {
+  color: #62EFFF;
 }
 
 .green .instructions a,
 .green .instructions h3,
 .green .instructions code {
-  color: rgb(33, 150, 243);
+  text-align: center;
+  color: #4CAF50;
+}
+
+.green .instructions h4 {
+  text-align: center;
+  color: #80E27E;
 }
 
 .green .subtitle a:hover,
 .green .instructions a:hover {
-  color: rgba(80, 250, 123, .7);
+  color: #80E27E;
+}
+
+.amber .instructions a,
+.amber .instructions h3,
+.amber .instructions code {
+  text-align: center;
+  color: #FFC107;
+}
+
+.amber .instructions h4 {
+  text-align: center;
+  color: #FFF350;
+}
+
+.amber .subtitle a:hover,
+.amber .instructions a:hover {
+  color: #FFF350;
 }
 
 .wrapper {
@@ -329,7 +317,7 @@ a {
   }
 
   .title {
-    font-size: 64px;
+    font-size: 45px;
   }
 }
 
@@ -359,3 +347,5 @@ a {
 .contributors li a p {
   text-align: center;
 }
+
+/*  */

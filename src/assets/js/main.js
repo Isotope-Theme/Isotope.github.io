@@ -5,7 +5,10 @@ malarkey(document.querySelector('.rotating'), {
     loop: true,
     postfix: ''
   })
-  .type('Vim').pause().delete()
+  .type('Bash').pause().delete()
+  .type('Zsh').pause().delete()
+  .type('Fish').pause().delete()
+  .type('XTerm').pause().delete()
   .type('Gnome Terminal').pause().delete()
 // .type('Atom').pause().delete()
 // .type('Vim').pause().delete()
