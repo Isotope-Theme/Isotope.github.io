@@ -52,6 +52,22 @@ body {
   margin-bottom: 60px;
 }
 
+.footer .red {
+  color: #F44336;
+}
+
+.footer .purple {
+  color: #9C27B0;
+}
+
+.footer .blue {
+  color: #2196F3;
+}
+
+.footer .cyan {
+  color: #00BCD4;
+}
+
 .footer .green {
   color: #4CAF50;
 }
@@ -308,10 +324,10 @@ h3 {
 }
 
 .wrapper {
-  width: 840px;
+  width: 1000px;
 }
 
-@media (max-width: 840px) {
+@media (max-width: 1000px) {
   .wrapper {
     width: auto;
   }
