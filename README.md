@@ -1,8 +1,6 @@
-# draculatheme.com
+# isotopetheme.com
 
-> This branch contains the source code for [draculatheme.com](https://draculatheme.com).
-
-![Screenshot](src/assets/img/readme.png)
+> This branch contains the source code for [IsotopeTheme.com](https://isotope-theme.github.io/Isotope.github.io/).
 
 ## How it works?
 
@@ -15,13 +13,13 @@ We use [Metalsmith](http://www.metalsmith.io/), a static generator in NodeJS.
 2. Now clone this repository:
 
     ```sh
-    $ git clone https://github.com/dracula/dracula-theme.git
+    $ git clone https://github.com/isotope-theme/isotope.github.io.git
     ```
 
 3. Then go to the project's folder:
 
     ```sh
-    $ cd dracula-theme
+    $ cd isotope.github.io
     ```
 
 4. Move to the `site` branch:
@@ -51,4 +49,4 @@ We use [Metalsmith](http://www.metalsmith.io/), a static generator in NodeJS.
 
 ## License
 
-[MIT License](./LICENSE) © Dracula Theme
+[MIT License](./LICENSE) © Isotope Theme
