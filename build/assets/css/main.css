@@ -1,0 +1,367 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #263238;
+  color: #ECEFF1;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.wrapper {
+  width: 840px;
+  margin: 0 auto;
+}
+
+/* Header:  */
+
+.title {
+  color: #2196F3;
+  margin: 0;
+  font-size: 112px;
+  text-align: center;
+}
+
+.subtitle {
+  color: #ECEFF1;
+  margin: 0 0 10px;
+  font-size: 56px;
+  font-weight: 400;
+}
+
+.subtitle a {
+  color: #ECEFF1;
+}
+
+.header {
+  margin: 30px 0 80px;
+}
+
+.gh-btns {
+  margin: 45px 0 0 25px;
+}
+
+.footer {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.footer .red {
+  color: #F44336;
+}
+
+.footer .purple {
+  color: #9C27B0;
+}
+
+.footer .blue {
+  color: #2196F3;
+}
+
+.footer .cyan {
+  color: #00BCD4;
+}
+
+.footer .green {
+  color: #4CAF50;
+}
+
+.footer .amber {
+  color: #FFC107;
+}
+
+/*  */
+
+/* Category  */
+
+.category-title {
+  color: #B0BEC5;
+  margin: 0 0 40px;
+  font-size: 45px;
+  text-align: center;
+}
+
+.category-title.tilt-right {
+  transform: rotate(10deg);
+}
+
+.category-title.tilt-left {
+  transform: rotate(-10deg);
+}
+
+/*  */
+
+/* App:  */
+
+.app {
+  margin-bottom: 80px;
+  text-decoration: none;
+}
+
+.app-title {
+  margin: 20px 0 0;
+  font-size: 34px;
+  color: #BCC2CD;
+  text-align: center;
+  -webkit-transition: color .3s linear;
+  transition: color .3s linear;
+}
+
+.app:hover .red {
+  color: #FF8961;
+}
+
+.app:hover .purple {
+  color: #D05CE3;
+}
+
+.app:hover .blue {
+  color: #6EC6FF;
+}
+
+.app:hover .cyan {
+  color: #62EFFF;
+}
+
+.app:hover .green {
+  color: #80E27E;
+}
+
+.app:hover .amber {
+  color: #FFF350
+}
+
+.app-img {
+  height: 205px;
+  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.app-img img {
+  display: flex;
+  align-self: flex-end;
+
+}
+
+/*  */
+
+/* Page:  */
+
+h3 {
+  text-align: center;
+  font-size: 45px;
+}
+
+h4 {
+  font-size: 34px;
+  font-weight: 500;
+  margin: 1em 0 .3em;
+}
+
+h5 {
+  font-size: 24px;
+  font-weight: 300;
+  margin: 1em 0 .3em;
+}
+
+code {
+  font-weight: 300;
+}
+
+pre {
+  background-color: #252525;
+  padding: 20px;
+  margin: 0 0 2em 0;
+  border-radius: 5px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+ol {
+  font-size: 20em;
+  font-weight: 300;
+  margin: 0 0 20px 30px;
+}
+
+p {
+  margin: 0 0 .5em 0;
+}
+
+a {
+  -webkit-transition: all .3s linear;
+  transition: all .3s linear;
+  text-decoration: none;
+}
+
+th {
+  font-size: 16px;
+}
+
+
+/* Theme
+   ========================================================================== */
+
+.theme {
+  margin: 0 auto;
+}
+
+.instructions {
+  margin-bottom: 60px;
+}
+
+h3 {
+  align: "center";
+}
+
+.red .instructions a,
+.red .instructions h3,
+.red .instructions code {
+  text-align: center;
+  color: #F44336;
+}
+
+.red .instructions h4 {
+  text-align: center;
+  color: #FF8961;
+}
+
+.red .subtitle a:hover,
+.red .instructions a:hover {
+  color: #FF8961;
+}
+
+.purple .instructions a,
+.purple .instructions h3,
+.purple .instructions code {
+  color: #9C27B0;
+}
+
+.purple .instructions h4 {
+  text-align: center;
+  color: #D05CE3;
+}
+
+.purple .subtitle a:hover,
+.purple .instructions a:hover {
+  color: #D05CE3;
+}
+
+.blue .instructions a,
+.blue .instructions h3,
+.blue .instructions code {
+  text-align: center;
+  color: #2196F3;
+}
+
+.blue .instructions h4 {
+  text-align: center;
+  color: #6EC6FF;
+}
+
+.blue .subtitle a:hover,
+.blue .instructions a:hover {
+  color: #6EC6FF;
+}
+
+.cyan .instructions a,
+.cyan .instructions h3,
+.cyan .instructions code {
+  text-align: center;
+  color: #00BCD4;
+}
+
+.cyan .instructions h4 {
+  text-align: center;
+  color: #62EFFF;
+}
+
+.cyan .subtitle a:hover,
+.cyan .instructions a:hover {
+  color: #62EFFF;
+}
+
+.green .instructions a,
+.green .instructions h3,
+.green .instructions code {
+  text-align: center;
+  color: #4CAF50;
+}
+
+.green .instructions h4 {
+  text-align: center;
+  color: #80E27E;
+}
+
+.green .subtitle a:hover,
+.green .instructions a:hover {
+  color: #80E27E;
+}
+
+.amber .instructions a,
+.amber .instructions h3,
+.amber .instructions code {
+  text-align: center;
+  color: #FFC107;
+}
+
+.amber .instructions h4 {
+  text-align: center;
+  color: #FFF350;
+}
+
+.amber .subtitle a:hover,
+.amber .instructions a:hover {
+  color: #FFF350;
+}
+
+.wrapper {
+  width: 1000px;
+}
+
+@media (max-width: 1000px) {
+  .wrapper {
+    width: auto;
+  }
+
+  .title {
+    font-size: 45px;
+  }
+}
+
+.preview {
+  margin: -30px auto 0;
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
+.contributors {
+  margin: 1em 0 .3em;
+}
+
+.contributors li {
+  display: inline-block;
+  list-style: none;
+  margin: 0 1em 1em 0;
+}
+
+.contributors li a img {
+  background: white;
+  border: 3px solid #546179;
+  border-radius: 5px;
+}
+
+.contributors li a p {
+  text-align: center;
+}
+
+/*  */

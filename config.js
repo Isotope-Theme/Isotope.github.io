@@ -1,6 +1,6 @@
 module.exports = {
-  source: 'src/content',
-  destination: 'dist',
+  source: 'src/',
+  destination: 'build',
   metadata: {
     site: 'site.yml'
   },
@@ -17,21 +17,20 @@ module.exports = {
       }
     }
   ],
-  request: {},
   assets: {
-    source: 'src/assets',
+    source: 'assets/',
     destination: './assets'
   },
   layouts: {
     engine: 'handlebars',
-    directory: 'src/layouts',
+    directory: 'layouts/',
     partials: {
       header: '../partials/header',
       footer: '../partials/footer'
     }
   },
   inPlace: {
-    directory: 'src/layouts',
+    directory: 'layouts/',
     engine: 'handlebars'
   },
   serve: {
@@ -41,9 +40,9 @@ module.exports = {
   watch: {
     paths: {
       "${source}/**/*": true,
-      "src/assets/**/*": "**/*",
-      "src/layouts/**/*": "**/*.html",
-      "src/partials/**/*": "**/*.html"
+      "assets/**/*": "**/*",
+      "layouts/**/*": "**/*.html",
+      "partials/**/*": "**/*.html"
     }
   }
 };

@@ -1,24 +1,42 @@
 {
-  "private": true,
+  "name": "isotope.github.io",
+  "version": "1.0.0",
+  "description": "Isotope theme website",
+  "main": "index.js",
   "scripts": {
-    "start": "node metalsmith build",
-    "deploy": "node metalsmith deploy",
-    "watch": "node metalsmith watch"
+    "build": "node build.js",
+    "watch": "node build.js serve",
+    "serve": "node buid.js serve",
+    "deploy": "node build.js deploy",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "dependencies": {
-    "chalk": "^1.0.0",
-    "gh-pages": "^0.11.0",
-    "handlebars": "^4.0.5",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Isotope-Theme/isotope.github.io.git"
+  },
+  "keywords": [
+    "Theme"
+  ],
+  "author": "Arden Rasmussen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Isotope-Theme/isotope.github.io/issues"
+  },
+  "homepage": "https://github.com/Isotope-Theme/isotope.github.io#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "gh-pages": "^1.1.0",
+    "handlebars": "^4.0.11",
     "load-metalsmith-plugins": "^0.1.1",
-    "metalsmith": "^2.1.0",
+    "metalsmith": "^2.3.0",
     "metalsmith-assets": "^0.1.0",
     "metalsmith-filemetadata": "^1.0.0",
     "metalsmith-in-place": "^1.4.4",
-    "metalsmith-layouts": "^1.6.5",
+    "metalsmith-layouts": "^1.8.1",
     "metalsmith-less": "^2.0.0",
     "metalsmith-markdown": "^0.2.1",
     "metalsmith-metadata": "0.0.4",
-    "metalsmith-metallic": "^1.0.0",
+    "metalsmith-metallic": "^2.0.2",
     "metalsmith-metaobject": "^0.1.0",
     "metalsmith-partial": "^0.1.0",
     "metalsmith-request": "^2.0.0",
