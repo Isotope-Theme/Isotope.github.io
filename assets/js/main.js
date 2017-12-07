@@ -5,13 +5,11 @@ malarkey(document.querySelector('.rotating'), {
     loop: true,
     postfix: ''
   })
-  .type('Bash').pause().delete()
-  .type('Zsh').pause().delete()
-  .type('Fish').pause().delete()
-  .type('XTerm').pause().delete()
+  .type('XResources').pause().delete()
   .type('Gnome Terminal').pause().delete()
+  .type('Vim').pause().delete()
+  .type('Rofi').pause().delete()
 // .type('Atom').pause().delete()
-// .type('Vim').pause().delete()
 // .type('iTerm').pause().delete()
 // .type('Terminal.app').pause().delete()
 // .type('Zsh').pause().delete()
